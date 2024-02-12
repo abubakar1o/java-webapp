@@ -32,7 +32,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#">Deployment project</a>
         </div>
         <div class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" role="form">
@@ -51,8 +51,8 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1>Hello</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <h1>Hi, This webapp has Develop in java and has been Deploy on Tomcat Server through Jenkins pipeline.</h1>
+        <p>Deploying a project on Tomcat through Jenkins streamlines the process of continuous integration and delivery, enhancing the efficiency of software development pipelines. Leveraging Jenkins' automation capabilities, developers can configure deployment pipelines to seamlessly build, test, and deploy applications to Tomcat servers. By defining deployment tasks within Jenkins jobs, such as compiling source code, packaging artifacts, and executing deployment scripts, teams ensure consistent and reliable application deployments.</p>
         <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
     </div>
 </div>
