@@ -1,0 +1,20 @@
+// test/index.test.js
+
+// Import Jest DOM to enhance Jest's built-in assertions
+import '@testing-library/jest-dom';
+
+// Import your HTML file
+import fs from 'fs';
+const html = fs.readFileSync('index.html', 'utf8');
+
+// Create a Jest test suite
+describe('HTML content', () => {
+  // Test whether the HTML file contains certain elements
+  test('contains navigation bar', () => {
+    document.body.innerHTML = html;
+    const navbar = document.querySelector('.navbar');
+    expect(navbar).toBeInTheDocument();
+  });
+
+  // Add more tests for other elements in your HTML file as needed
+});
