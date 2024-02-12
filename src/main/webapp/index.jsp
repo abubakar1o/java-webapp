@@ -51,7 +51,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1>Hi, 😊👋</h1>
+        <h1>Jenkins CI/CD</h1>
         <p>Deploying a project on Tomcat through Jenkins streamlines the process of continuous integration and delivery, enhancing the efficiency of software development pipelines. Leveraging Jenkins' automation capabilities, developers can configure deployment pipelines to seamlessly build, test, and deploy applications to Tomcat servers. By defining deployment tasks within Jenkins jobs, such as compiling source code, packaging artifacts, and executing deployment scripts, teams ensure consistent and reliable application deployments.</p>
         <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
     </div>
