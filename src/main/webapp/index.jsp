@@ -52,7 +52,10 @@
 <div class="jumbotron">
     <div class="container">
         <h1>Jenkins CI/CD</h1>
-        <p>𝘋𝘦𝘱𝘭𝘰𝘺𝘪𝘯𝘨 𝘢 𝘱𝘳𝘰𝘫𝘦𝘤𝘵 𝘰𝘯 𝘛𝘰𝘮𝘤𝘢𝘵 𝘵𝘩𝘳𝘰𝘶𝘨𝘩 𝘑𝘦𝘯𝘬𝘪𝘯𝘴 𝘴𝘵𝘳𝘦𝘢𝘮𝘭𝘪𝘯𝘦𝘴 𝘵𝘩𝘦 𝘱𝘳𝘰𝘤𝘦𝘴𝘴 𝘰𝘧 𝘤𝘰𝘯𝘵𝘪𝘯𝘶𝘰𝘶𝘴 𝘪𝘯𝘵𝘦𝘨𝘳𝘢𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘥𝘦𝘭𝘪𝘷𝘦𝘳𝘺, 𝘦𝘯𝘩𝘢𝘯𝘤𝘪𝘯𝘨 𝘵𝘩𝘦 𝘦𝘧𝘧𝘪𝘤𝘪𝘦𝘯𝘤𝘺 𝘰𝘧 𝘴𝘰𝘧𝘵𝘸𝘢𝘳𝘦 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘮𝘦𝘯𝘵 𝘱𝘪𝘱𝘦𝘭𝘪𝘯𝘦𝘴. 𝘓𝘦𝘷𝘦𝘳𝘢𝘨𝘪𝘯𝘨 𝘑𝘦𝘯𝘬𝘪𝘯𝘴' 𝘢𝘶𝘵𝘰𝘮𝘢𝘵𝘪𝘰𝘯 𝘤𝘢𝘱𝘢𝘣𝘪𝘭𝘪𝘵𝘪𝘦𝘴, 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳𝘴 𝘤𝘢𝘯 𝘤𝘰𝘯𝘧𝘪𝘨𝘶𝘳𝘦 𝘥𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵 𝘱𝘪𝘱𝘦𝘭𝘪𝘯𝘦𝘴 𝘵𝘰 𝘴𝘦𝘢𝘮𝘭𝘦𝘴𝘴𝘭𝘺 𝘣𝘶𝘪𝘭𝘥, 𝘵𝘦𝘴𝘵, 𝘢𝘯𝘥 𝘥𝘦𝘱𝘭𝘰𝘺 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 𝘵𝘰 𝘛𝘰𝘮𝘤𝘢𝘵 𝘴𝘦𝘳𝘷𝘦𝘳𝘴. 𝘉𝘺 𝘥𝘦𝘧𝘪𝘯𝘪𝘯𝘨 𝘥𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵 𝘵𝘢𝘴𝘬𝘴 𝘸𝘪𝘵𝘩𝘪𝘯 𝘑𝘦𝘯𝘬𝘪𝘯𝘴 𝘫𝘰𝘣𝘴, 𝘴𝘶𝘤𝘩 𝘢𝘴 𝘤𝘰𝘮𝘱𝘪𝘭𝘪𝘯𝘨 𝘴𝘰𝘶𝘳𝘤𝘦 𝘤𝘰𝘥𝘦, 𝘱𝘢𝘤𝘬𝘢𝘨𝘪𝘯𝘨 𝘢𝘳𝘵𝘪𝘧𝘢𝘤𝘵𝘴, 𝘢𝘯𝘥 𝘦𝘹𝘦𝘤𝘶𝘵𝘪𝘯𝘨 𝘥𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵 𝘴𝘤𝘳𝘪𝘱𝘵𝘴, 𝘵𝘦𝘢𝘮𝘴 𝘦𝘯𝘴𝘶𝘳𝘦 𝘤𝘰𝘯𝘴𝘪𝘴𝘵𝘦𝘯𝘵 𝘢𝘯𝘥 𝘳𝘦𝘭𝘪𝘢𝘣𝘭𝘦 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 𝘥𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵𝘴.</p>
+        <p>Jenkins
+            Build great things at any scale
+            
+            The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.</p>
         <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
     </div>
 </div>
