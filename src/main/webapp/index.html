@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Online Store</title>
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
@@ -31,18 +31,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Deployment project</a>
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Company Logo" style="height: 30px;">
+            </a>
         </div>
         <div class="navbar-collapse collapse">
-            <form class="navbar-form navbar-right" role="form">
-                <div class="form-group">
-                    <input type="text" placeholder="Email" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Password" class="form-control">
-                </div>
-                <button id="signin-btn" type="button" class="btn btn-success">Sign in</button>
-            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+            </ul>
         </div><!--/.navbar-collapse -->
     </div>
 </div>
@@ -50,39 +47,40 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1>Jenkins CI/CD</h1>
-        <p>Jenkins
-            Build great things at any scale
-            
-            The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+        <h1>Welcome to Cust&Stitch</h1>
+        <p>Your one-stop destination for premium leather products.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Shop Now &raquo;</a></p>
     </div>
 </div>
 
 <div class="container">
-    <!-- Example row of columns -->
     <div class="row">
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>Men's Collection</h2>
+            <ul>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Puffers</a></li>
+                <li><a href="#">Wallets & Belts</a></li>
+                <li><a href="#">Biker Jackets</a></li>
+                <li><a href="#">Leather Long Coats</a></li>
+            </ul>
         </div>
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>Women's Collection</h2>
+            <ul>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Puffers</a></li>
+                <li><a href="#">Wallets & Belts</a></li>
+                <li><a href="#">Biker Jackets</a></li>
+                <li><a href="#">Leather Long Coats</a></li>
+            </ul>
         </div>
     </div>
 
     <hr>
 
     <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; Cust&Stitch</p>
     </footer>
 </div> <!-- /container -->
 
@@ -94,14 +92,5 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
-<script>
-    $(document).ready(function(){
-        $('#signin-btn').click(function(){
-            window.location.href = 'home.html'; // Change 'home.html' to your home page URL
-        });
-    });
-</script>
-
 </body>
 </html>
