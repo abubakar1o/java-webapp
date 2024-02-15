@@ -1,98 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
     <title>About Cust&Stitch</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            color: #212529;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 50px 20px;
-        }
-        h1, h2, h3 {
-            color: #343a40;
-            margin-bottom: 20px;
-        }
-        p {
-            margin-bottom: 20px;
-        }
-        .section-heading {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-            color: #007bff;
-        }
-    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
 
 <!-- Navigation Bar -->
-<div class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="logo.png" alt="Company Logo" style="height: 30px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <!-- Add more navigation items as needed -->
-            </ul>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Company Logo" style="height: 30px;">
+            </a>
         </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Jackets</a></li>
+                        <li><a href="#">Puffers</a></li>
+                        <li><a href="#">Wallets & Belts</a></li>
+                        <li><a href="#">Biker Jackets</a></li>
+                        <li><a href="#">Leather Long Coats</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Jackets</a></li>
+                        <li><a href="#">Puffers</a></li>
+                        <li><a href="#">Wallets & Belts</a></li>
+                        <li><a href="#">Biker Jackets</a></li>
+                        <li><a href="#">Leather Long Coats</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div><!--/.navbar-collapse -->
+    </div>
+</div>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>Welcome to Cust&Stitch</h1>
+        <p>Your one-stop destination for premium leather products.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Shop Now &raquo;</a></p>
     </div>
 </div>
 
 <div class="container">
-    <header class="text-center mb-5">
-        <h1 class="display-4">Welcome to Cust&Stitch</h1>
-        <p class="lead">Crafting Stories, Style, and Sophistication</p>
-    </header>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Men's Collection</h2>
+            <ul>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Puffers</a></li>
+                <li><a href="#">Wallets & Belts</a></li>
+                <li><a href="#">Biker Jackets</a></li>
+                <li><a href="#">Leather Long Coats</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h2>Women's Collection</h2>
+            <ul>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Puffers</a></li>
+                <li><a href="#">Wallets & Belts</a></li>
+                <li><a href="#">Biker Jackets</a></li>
+                <li><a href="#">Leather Long Coats</a></li>
+            </ul>
+        </div>
+    </div>
 
-    <section>
-        <h2 class="section-heading">Our Heritage</h2>
-        <img src="heritage.jpg" alt="Our Heritage" class="img-fluid mb-3">
-        <p>Established with a passion for craftsmanship and an unwavering commitment to quality, Cust&Stitch embodies the legacy of artisanal excellence passed down through generations. Rooted in tradition yet infused with modern innovation, our brand is synonymous with unparalleled craftsmanship and attention to detail.</p>
-    </section>
+    <hr>
 
-    <section>
-        <h2 class="section-heading">Our Commitment</h2>
-        <img src="heritage.jpg" alt="Our Commitment" class="img-fluid mb-3">
-        <p>At Cust&Stitch, we are committed to sustainability and ethical practices, sourcing only the finest quality materials and employing environmentally friendly production processes. We believe in creating products that not only stand the test of time but also contribute to a more sustainable future.</p>
-    </section>
+    <footer>
+        <p>&copy; Cust&Stitch</p>
+    </footer>
+</div> <!-- /container -->
 
-    <section>
-        <h2 class="section-heading">Experience the Difference</h2>
-        <img src="heritage.jpg" alt="Experience the Difference" class="img-fluid mb-3">
-        <p>Indulge in luxury with Cust&Stitch and experience the difference that fine craftsmanship and superior quality can make. Whether you're treating yourself or searching for the perfect gift, our timeless leather creations are sure to make a lasting impression.</p>
-    </section>
 
-    <section>
-        <h2 class="section-heading">Contact Us</h2>
-        <img src="heritage.jpg" alt="Contact Us" class="img-fluid mb-3">
-        <p>Ready to embark on your journey with Cust&Stitch? Explore our collection online or visit one of our flagship stores to experience the luxury of fine leather craftsmanship firsthand. For inquiries or assistance, our dedicated customer service team is always here to help.
-
-            Elevate your style. Embrace the craftsmanship. Experience Cust&Stitch.</p>
-    </section>
-
-    <!-- Add more sections with images as needed -->
-
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 </body>
 </html>
