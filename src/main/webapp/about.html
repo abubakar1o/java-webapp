@@ -36,27 +36,46 @@
 
 <!-- Navigation Bar -->
 <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="logo.png" alt="Company Logo" style="height: 30px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <!-- Add more navigation items as needed -->
-            </ul>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Company Logo" style="height: 30px;">
+            </a>
         </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Jackets</a></li>
+                        <li><a href="#">Puffers</a></li>
+                        <li><a href="#">Wallets & Belts</a></li>
+                        <li><a href="#">Biker Jackets</a></li>
+                        <li><a href="#">Leather Long Coats</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Jackets</a></li>
+                        <li><a href="#">Puffers</a></li>
+                        <li><a href="#">Wallets & Belts</a></li>
+                        <li><a href="#">Biker Jackets</a></li>
+                        <li><a href="#">Leather Long Coats</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">index</a></li>
+            </ul>
+        </div><!--/.navbar-collapse -->
     </div>
-</nav>
+</div>
 
 
 <div class="container">
