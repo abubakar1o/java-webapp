@@ -10,7 +10,6 @@
 
     <title>Jumbotron Template for Bootstrap</title>
 
-
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
 
@@ -42,7 +41,7 @@
                 <div class="form-group">
                     <input type="password" placeholder="Password" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-success">Sign in</button>
+                <button id="signin-btn" type="button" class="btn btn-success">Sign in</button>
             </form>
         </div><!--/.navbar-collapse -->
     </div>
@@ -95,5 +94,14 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<script>
+    $(document).ready(function(){
+        $('#signin-btn').click(function(){
+            window.location.href = 'home.html'; // Change 'home.html' to your home page URL
+        });
+    });
+</script>
+
 </body>
 </html>
